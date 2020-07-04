@@ -19,6 +19,6 @@ import { CardComponent } from './components/card/card.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [NavbarComponent,CardComponent]
 })
 export class AppModule { }
